@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
 <?php $title = 'Reportes'; ?>
 <?php $currentPage = 'Reportes'; ?>
 <?php include('head.php'); ?>
