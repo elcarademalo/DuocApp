@@ -16,6 +16,7 @@
            <div class="col-lg-12">
            <a href="exportarDatos.php">Descargar</a>
             <table id="tablaUsuarios" class="table-striped table-bordered" style="width:100%">
+		    <caption>Tabla usuarios</caption>
                 <thead class="text-center">
                     <th scope="col">Fecha y Hora</th>
                     <th scope="col">Año</th>
