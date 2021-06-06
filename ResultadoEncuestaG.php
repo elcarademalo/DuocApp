@@ -17,20 +17,20 @@
            <a href="exportarDatos.php">Descargar</a>
             <table id="tablaUsuarios" class="table-striped table-bordered" style="width:100%">
                 <thead class="text-center">
-                    <th>Fecha y Hora</th>
-                    <th>Año</th>
-                    <th>Codigo Encuesta</th>
-                    <th>Responsable</th>
-                    <th>Cargo</th>
-                    <th>Sección</th>
-                    <th>Horario</th>
-                    <th>Pregunta 1 </th>
-                    <th>Respuesta 1</th>
-                    <th>Pregunta 2</th>
-                    <th>Respuesta 2</th>
-                    <th>Pregunta 3</th>
-                    <th>Respuesta 3</th>
-                    <th>Comentario</th>
+                    <th scope="col">Fecha y Hora</th>
+                    <th scope="col">Año</th>
+                    <th scope="col">Codigo Encuesta</th>
+                    <th scope="col">Responsable</th>
+                    <th scope="col">Cargo</th>
+                    <th scope="col">Sección</th>
+                    <th scope="col">Horario</th>
+                    <th scope="col">Pregunta 1 </th>
+                    <th scope="col">Respuesta 1</th>
+                    <th scope="col">Pregunta 2</th>
+                    <th scope="col">Respuesta 2</th>
+                    <th scope="col">Pregunta 3</th>
+                    <th scope="col">Respuesta 3</th>
+                    <th scope="col">Comentario</th>
                 </thead>
                 <tbody>
                     <?php
