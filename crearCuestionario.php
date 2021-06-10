@@ -1,4 +1,9 @@
-<html>
+<!DOCTYPE html>
+<head>
+<title>Crear cuestionario.</title>
+</head>
+
+Fuente: https://www.ejemplode.com/17-html/531-ejemplo_de_como_poner_el_titulo_a_un_documento_html.html#ixzz6xKx4wmR6
     <?php $title = 'Crear Cuestionario'; ?>
     <?php $currentPage = 'crearCuestionario'; ?>
     <?php include('head.php'); ?>
@@ -26,7 +31,7 @@ error_reporting(E_ALL ^ E_NOTICE);
         
         
     }
-    
+
 ?>
 <?php
     
@@ -127,12 +132,18 @@ error_reporting(E_ALL ^ E_NOTICE);
 
         </div>
         <div class="form-group col-12 col-lg-6">
-    <table id="tablaUsuarios" class="table-striped table-bordered" style="width:100%">
+
+<table>
+  <tr>
+    <th id="tablaUsuarios" class="table-striped table-bordered" style="width:100%"</th>
+  </tr>
+</table>
+    <table> id="tablaUsuarios" class="table-striped table-bordered" style="width:100%"</table>
                 <thead class="text-center">
-                    <th>Codigo Encuesta</th>
-                    <th>Asignatura </th>
-                    <th>Sección</th>
-                    <th>Responsable</th>                    
+                    <th:id>Codigo Encuesta</th>
+                    <th:id>Asignatura </th>
+                    <th:id>Sección</th>
+                    <th:id>Responsable</th>                    
                 </thead>
                 <tbody>
                     <?php
